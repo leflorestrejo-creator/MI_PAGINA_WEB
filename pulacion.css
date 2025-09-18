@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background 0.3s;
+}
+
+/* Cards */
+.custom-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: rgba(255,255,255,0.9);
+}
+.custom-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* Botones */
+button.btn-primary { background-color: #28a745; border: none; }
+button.btn-primary:hover { background-color: #218838; }
+button.btn-danger { background-color: #dc3545; border: none; }
+button.btn-danger:hover { background-color: #c82333; }
+
+/* Carrito flotante */
+#carrito-float {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 220px;
+  background-color: rgba(255,255,255,0.95);
+  z-index: 1000;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Lista de tareas */
+.list-group-item { transition: transform 0.2s; }
+.list-group-item:hover { transform: scale(1.02); background-color: #ffe3c5; }
+
+
